@@ -17,7 +17,7 @@ app:
   #   - America/New_York (美东时间 UTC-5/-4)
   #   - Europe/London (伦敦时间 UTC+0/+1)
   # 完整时区列表: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-  timezone: "Asia/Shanghai"
+  timezone: "America/Sao_Paulo"
   show_version_update: true           # 显示版本更新提示
 
 
@@ -151,7 +151,7 @@ rss:
 # - incremental：最少打扰，只看新增
 # ===============================================================
 report:
-  mode: "current"                     # daily | current | incremental（schedule 开启时作为默认值）
+  mode: "incremental"                     # daily | current | incremental（schedule 开启时作为默认值）
 
   display_mode: "keyword"             # 分组维度: keyword | platform
                                       # keyword: 按关键词分组显示（默认）
@@ -476,7 +476,7 @@ ai_analysis:
   # 分析报告输出语言
   # 格式：自然语言描述
   # 示例: "English", "Korean", "法语"
-  language: "Chinese"
+  language: "Portuguese"
 
   # 提示词配置文件路径（相对于 config 目录）
   prompt_file: "ai_analysis_prompt.txt"
@@ -532,7 +532,7 @@ ai_translation:
   # 翻译目标语言
   # 格式：自然语言描述
   # 示例: "Chinese", "Korean", "法语"
-  language: "中文"
+  language: "Português"
 
   # 提示词配置文件路径（相对于 config 目录）
   prompt_file: "ai_translation_prompt.txt"
